@@ -6,6 +6,7 @@ from Database import get_db, Base, engine
 from schemas import UserRequestDTO
 import user_services
 
+
 app = FastAPI(
     title="Manager Users"
 )
